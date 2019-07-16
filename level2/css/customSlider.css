@@ -1,0 +1,45 @@
+.rangeSlide {
+  width: 100%;
+  text-align: center;
+}
+.rangeSlide input {
+  margin-top: 20px;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 90%;
+  height: 10px;
+  background-image: linear-gradient(to right, blue , red);
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+.rangeSlide input:hover {
+  opacity: 1;
+}
+.rangeSlide input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 0 8px rgba(0,0,0,0.8);
+  background-image: url("../img/chevron.png");
+  background-position: center;
+  background-size: cover;
+}
+.rangeSlide input::-moz-range-thumb {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 0 8px rgba(0,0,0,0.8);
+  background-image: url("../img/chevron.png");
+  background-position: center;
+  background-size: cover;
+}

@@ -1,0 +1,158 @@
+html {
+  scroll-behavior: smooth;
+}
+header h2 {
+  text-transform: uppercase;
+}
+header {
+  padding: 300px 0;
+  height: 100vh;
+}
+header>div {
+  padding: 10px 0 20px;
+}
+#email {
+  max-width: 300px;
+}
+nav a {
+  text-transform: uppercase;
+}
+h4 {
+  font-weight: bold;
+}
+.divider {
+  max-width: 190px;
+  margin: auto;
+}
+#services p {
+  max-width: 500px;
+  margin: 30px auto;
+}
+#services .row>div {
+  text-align: center;
+}
+#services1 p {
+  max-width: 500px;
+  margin: 30px auto;
+}
+#services1 {
+  padding: 10px 0 100px;
+}
+#outer {
+  max-width: 500px;
+  margin: 30px auto;
+}
+#inner {
+  margin: 20px 0;
+}
+#products h5 {
+  font-weight: bold;
+  margin: 0;
+}
+#products1 {
+  padding: 80px 0;
+}
+#products1 h3 {
+  font-weight: bold;
+}
+#products1>div {
+  padding: 20px 40px 40px 40px;
+}
+#products1 h5 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#team {
+    padding: 50px 0 90px;
+}
+.profile {
+  width: 150px;
+  height: 180px;
+  border: 10px solid #e6e6e6;
+  background: #fff;
+  margin: 10px 0;
+}
+.links i {
+  color: #719a4e;
+}
+.links a {
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #fff;
+  padding: 10px;
+}
+#team h6 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#clients {
+  padding: 30px 0 50px;
+}
+#events {
+  padding-bottom: 50px;
+}
+.small {
+  font-size: 40px;
+}
+.large {
+  font-size: 50px;
+}
+#events1 {
+  padding: 40px 0;
+}
+#events1 a {
+  display: block;
+}
+.bpost {
+  max-width: 100%;
+  height: 180px;
+  background: #7a7878;
+}
+#blog {
+  padding: 20px 0 100px;
+}
+#blog .row a {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+.but {
+  max-width: 115px;
+  margin: 0;
+}
+.arrows {
+  max-width: 100px;
+}
+.arrows i {
+  font-size: 35px;
+}
+#contact {
+  padding: 20px 0 90px;
+}
+.cloud {
+  margin: 20px auto;
+  max-width: 360px;
+  border-radius: 25px;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+}
+.cloud h6 {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+.cloud p {
+  margin: 0;
+}
+footer h5 {
+  font-weight: bold;
+}
+footer .links i {
+  color: white;
+}
+footer .links a {
+  background: #719a4e;
+}

@@ -1,0 +1,220 @@
+main {
+  background-color: #000;
+}
+.display {
+  margin: auto;
+  max-width: 1470px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 12% auto;
+}
+.sideMenu {
+  background-color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+.sideMenu ul {
+  position: absolute;
+  text-align: center;
+}
+.sideMenu ul li {
+  margin-bottom: 30px;
+}
+.sideMenu ul i {
+  font-size: 20px;
+}
+.mainContent {
+  background-color: #f1f1f1;
+  padding-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.sideMenu>div {
+  width: 100%;
+  text-align: center;
+  padding: 50px 0;
+}
+.sideMenu i {
+  font-size: 30px;
+}
+.mobNav {
+  width: 100%;
+  text-align: center;
+  color: #555;
+}
+.visible {
+  left: 0;
+}
+.nonvisible {
+  left: -200px;
+}
+.navElem {
+  display: none;
+}
+.active {
+  color: #000;
+  border-right: solid 3px #000;
+  box-sizing: border-box;
+}
+.passive {
+  color: #d3d3d3;
+}
+header {
+  width: 100%;
+  position: relative;
+  padding-top: 42px;
+}
+header>div {
+  position: absolute;
+}
+.calendar {
+  left: 48px;
+  width: 141px;
+  height: 35px;
+  background-color: #fff;
+  font: 14px normal "Open Sans";
+  color: #a4a4a4;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.profBox {
+  right: 60px;
+  width: 104px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+.options {
+  width: 46px;
+  border-radius: 3px;
+  text-align: center;
+  padding-top: 10px;
+  color: #a4a4a4;
+  background-color: #fff;
+  cursor: pointer;
+}
+.options2 {
+  width: 46px;
+  text-align: center;
+  color: #a4a4a4;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+.profPic {
+  width: 35px;
+  background-image: url("../img/prof.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.container {
+  display: grid;
+  grid-gap: 30px;
+  max-width: 1212px;
+  margin: auto;
+  margin-top: 100px;
+}
+.container>div {
+  background-color: #fff;
+  padding-left: 48px;
+  padding-top: 50px;
+  padding-bottom: 54px;
+  box-shadow: 0 0 7px rgba(0,0,0,0.1);
+  position: relative;
+}
+.container img {
+  width: 300px;
+  height: 150px;
+}
+.container p {
+  font-size: 16px;
+  color: #a4a4a4;
+  margin-bottom: 10px;
+}
+.container span {
+  font-size: 16px;
+  color: #a4a4a4;
+}
+.container b {
+  font-size: 60px;
+  font-weight: bold;
+}
+.miniCon1 span, .miniCon2 span, .miniCon3 span {
+  display: block;
+  margin-bottom: 5px;
+}
+.miniCon1 span:nth-last-of-type(2), .miniCon1 span:nth-last-of-type(4) {
+  color: #bf7c86;
+}
+.miniCon2 span:nth-last-of-type(2), .miniCon2 span:nth-last-of-type(4) {
+  color: #81c295;
+}
+.miniCon3 span:nth-last-of-type(2), .miniCon3 span:nth-last-of-type(4) {
+  color: #98afcc;
+}
+.temp {
+  text-align: center;
+  padding-left: 0 !important;
+}
+.temp i {
+  font-size: 24px;
+  color: #d3d3d3;
+}
+.temp span {
+  font-size: 94px;
+  font-weight: bold;
+  color: #303030;
+}
+.weather {
+  display: flex;
+  justify-content: space-around;
+  padding: 75px 0 !important;
+}
+.weather>div {
+  text-align: center;
+}
+.weather i {
+  font-size: 36px;
+  color: #fcbf5f;
+  margin: 30px 0;
+}
+.lastWrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1212px;
+  margin: auto;
+  margin-top: 30px;
+}
+.lastWrapper>div {
+  width: 100%;
+  box-shadow: 0 0 7px rgba(0,0,0,0.1);
+}
+.buttonBox {
+  background-color: #fff;
+  padding: 39px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.buttonBox i {
+  font-size: 24px;
+  color: #d3d3d3;
+  margin-right: 10px;
+}
+.pics {
+  background-size: cover;
+  background-position: center;
+  width: 240px;
+  height: 220px;
+}
+.bed {
+  background-image: url("../img/bedroom.jpg");
+}
+.living {
+  background-image: url("../img/livingroom.jpg");
+}

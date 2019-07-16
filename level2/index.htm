@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Level2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/customSlider.css" />
+    <link rel="stylesheet" href="css/customSwitch.css" />
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <main class="frame">
+      <div class="display">
+        <div class="sideMenu">
+          <div class="mobNav"><i class="fa fa-bars"></i></div>
+          <ul id="mobMenu" class="nonvisible">
+            <li><i class="fas fa-home"></i></li>
+            <li><i class="fas fa-bed"></i></li>
+            <li><i class="far fa-lightbulb"></i></li>
+            <li><i class="fas fa-video"></i></li>
+            <li><i class="fas fa-unlock"></i></li>
+          </ul>
+          <div class="navElem passive"><i class="fas fa-home"></i></div>
+          <div class="navElem passive"><i class="fas fa-bed"></i></div>
+          <div class="navElem passive"><i class="far fa-lightbulb"></i></div>
+          <div class="navElem passive"><i class="fas fa-video"></i></div>
+          <div class="navElem passive"><i class="fas fa-unlock"></i></div>
+        </div>
+        <div class="mainContent">
+          <header>
+            <div class="calendar">March 5, 2016 &#8964;</div>
+            <div class="profBox">
+              <div class="options"><i class="fas fa-cog"></i></div>
+              <div class="profPic"></div>
+            </div>
+          </header>
+          <div class="container">
+            <div>
+              <div class="options2"><i class="fas fa-cog"></i></div>
+              <p>power</p>
+              <b>2412</b><span>kw</span>
+              <div><img src="img/line1.svg" alt=""></div>
+              <div style="display: flex;" class="miniCon1">
+                <div style="margin-right: 50px;"><span>1313kw</span>
+                <span>month</span></div>
+                <div><span>13kw</span>
+                <span>today</span></div>
+              </div>
+            </div>
+            <div>
+              <div class="options2"><i class="fas fa-cog"></i></div>
+              <p>water</p>
+              <b>6.2</b><span>m3</span>
+              <div><img src="img/line2.svg" alt=""></div>
+              <div style="display: flex;" class="miniCon2">
+                <div style="margin-right: 50px;"><span>2.3 m3</span>
+                <span>month</span></div>
+                <div><span>0.3 m3</span>
+                <span>today</span></div>
+              </div>
+            </div>
+            <div>
+              <div class="options2"><i class="fas fa-cog"></i></div>
+              <p>gas</p>
+              <b>89</b><span>mpg</span>
+              <div><img src="img/line3.svg" alt=""></div>
+              <div style="display: flex;" class="miniCon3">
+                <div style="margin-right: 50px;"><span>12.4 mpg</span>
+                <span>month</span></div>
+                <div><span>0.8 mpg</span>
+                <span>today</span></div>
+              </div>
+            </div>
+            <div class="temp">
+              <div class="options2"><i class="fas fa-cog"></i></div>
+              <i class="fas fa-thermometer-three-quarters"></i><br/>
+              <span>72</span><span style="color: #d3d3d3; font-size: 72px;">&#8457;<span>
+              <div class="rangeSlide">
+                <input type="range" min="1" max="100" value="50" />
+              </div>
+            </div>
+            <div class="weather">
+              <div>
+                <p>Mon</p>
+                <i class="fas fa-sun"></i>
+                <p>63 &#176;</p>
+              </div>
+              <div>
+                <p>Tue</p>
+                <i class="fas fa-cloud-sun-rain"></i>
+                <p>51 &#176;</p>
+              </div>
+              <div>
+                <p>Wed</p>
+                <i class="fas fa-bolt"></i>
+                <p>68 &#176;</p>
+              </div>
+              <div>
+                <p>Thur</p>
+                <i class="fas fa-wind"></i>
+                <p>52 &#176;</p>
+              </div>
+              <div>
+                <p>Fri</p>
+                <i class="fas fa-wind"></i>
+                <p>52 &#176;</p>
+              </div>
+            </div>
+          </div>
+          <div class="lastWrapper">
+            <div>
+              <div class="buttonBox">
+                <div><i class="far fa-lightbulb"></i><span>Lights</span></div>
+                <div class="onoffswitch">
+                    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch">
+                    <label class="onoffswitch-label" for="myonoffswitch"></label>
+                </div>
+              </div>
+              <div class="buttonBox">
+                <div><i class="fas fa-burn"></i><span>Gas</span></div>
+                <div class="onoffswitch">
+                    <input type="checkbox" name="onoffswitch2" class="onoffswitch-checkbox" id="myonoffswitch2">
+                    <label class="onoffswitch-label" for="myonoffswitch2"></label>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="buttonBox">
+                <div><i class="fas fa-video"></i><span>Camera</span></div>
+                <div class="onoffswitch">
+                    <input type="checkbox" name="onoffswitch3" class="onoffswitch-checkbox" id="myonoffswitch3">
+                    <label class="onoffswitch-label" for="myonoffswitch3"></label>
+                </div>
+              </div>
+              <div class="buttonBox">
+                <div><i class="fas fa-lock"></i><span>Locks</span></div>
+                <div class="onoffswitch">
+                    <input type="checkbox" name="onoffswitch4" class="onoffswitch-checkbox" id="myonoffswitch4">
+                    <label class="onoffswitch-label" for="myonoffswitch4"></label>
+                </div>
+              </div>
+            </div>
+            <div class="pics bed"></div>
+            <div class="pics living"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script>
+      $(document).ready(function() {
+        $('.navElem').click(function() {
+            $(this).toggleClass('active');
+            $(this).toggleClass('passive');
+        });
+        $('.mobNav').click(function() {
+          $('#mobMenu').toggleClass('visible');
+          $('#mobMenu').toggleClass('nonvisible');
+        });
+      });
+    </script>
+  </body>
+</html>

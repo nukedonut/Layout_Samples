@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Level0</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+    <link rel="stylesheet" href="css/customSelect.css" />
+    <link rel="stylesheet" href="css/rangeSliders.css" />
+    <link rel="stylesheet" href="css/customRadioBox.css">
+    <link rel="stylesheet" href="css/customSwitches.css">
+    <link rel="stylesheet" href="css/master.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="main">
+        <div class="colOne">
+          <div class="searchBar">
+            <input type="text" name="searchQ" placeholder="quick search" />
+            <button><i class="far fa-times-circle"></i></button>
+          </div>
+          <div class="userName">
+            <input type="text" name="username" placeholder="user name" />
+            <button><i class="fas fa-user"></i></button>
+          </div>
+          <div class="passWord">
+            <input type="password" name="passWord" placeholder="" />
+            <button><i class="fas fa-lock"></i></button>
+          </div>
+          <div class="search">
+            <input type="text" name="search" placeholder="search" />
+            <button><i class="fas fa-search"></i></button>
+          </div>
+          <div class="custom-select">
+            <select>
+              <option value="0">Select state</option>
+              <option value="1">Alabama</option>
+              <option value="2">Alaska</option>
+              <option value="3">Arizona</option>
+            </select>
+          </div>
+        </div>
+        <div class="colTwo">
+          <div class="profile">
+            <div class="profPic"></div>
+            <div class="profName">
+              <p>Angelo</p>
+              <span>Web designer</span>
+            </div>
+            <div class="proCall"><i class="fas fa-phone"></i></div>
+          </div>
+          <div class="socButtons">
+            <div class="">
+              <i class="fas fa-star"></i>
+              <p>3.6</p>
+            </div>
+            <div class="calendarSoc"><i class="far fa-calendar-alt"></i></div>
+            <div class="">
+              <i class="fas fa-comment"></i>
+              <p>27</p>
+            </div>
+            <div class="heartSoc"><i class="fas fa-heart"></i></div>
+            <div class="likeSoc"><i class="fas fa-thumbs-up"></i></div>
+          </div>
+          <div class="rangeSlide">
+            <input type="range" min="1" max="100" value="1" />
+          </div>
+          <div class="rangeSlide2">
+            <input type="range" min="1" max="100" value="50" />
+          </div>
+          <div class="welcomeMenu">
+            <div class="bars"><i class="fas fa-bars"></i></div>
+            <div class="menuTitle">welcome menu</div>
+            <div class="gear"><i class="fas fa-cog"></i></div>
+          </div>
+          <div class="videoSoc">
+            <iframe width="100%" height="186"
+            src="https://www.youtube.com/embed/C0DPdy98e4c"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="colThree">
+          <div class="openNew">Open in new window</div>
+          <div class="backHome"><button><i class="fas fa-arrow-left"></i></button>Back to home</div>
+          <div class="logBox">
+            <div class="login">Login</div>
+            <div class="logout">
+              <button><i class="fas fa-power-off"></i></button>
+              Logout
+            </div>
+          </div>
+          <div class="controls">
+            <div class="leftControls">
+              <button><i class="fas fa-minus"></i></button>
+              <button><i class="fas fa-plus"></i></button>
+            </div>
+            <div class="rightControls">
+              <button><i class="fas fa-chevron-left"></i></button>
+              <button><i class="fas fa-chevron-right"></i></button>
+            </div>
+          </div>
+          <div class="checks">
+            <div class="radios">
+              <label class="container">
+                <input type="radio" checked="checked" name="radio" />
+                <span class="checkmark"></span>
+                Radio is on
+              </label>
+              <label class="container">
+                <input type="radio" name="radio" />
+                <span class="checkmark"></span>
+                Radio is off
+              </label>
+              <label class="container disabled">
+                <input type="radio" name="radio" id="dis" />
+                <span class="checkmark"></span>
+                Disabled
+              </label>
+            </div>
+            <div class="boxes">
+              <label class="container2">
+                Checked
+                <input type="checkbox" checked="checked" />
+                <span class="checkmark2"></span>
+              </label>
+              <label class="container2">
+                Uncheked
+                <input type="checkbox" />
+                <span class="checkmark2"></span>
+              </label>
+              <label class="container2 disabled">
+                Disabled
+                <input type="checkbox" id="dis" checked="checked" disabled />
+                <span class="checkmark2"></span>
+              </label>
+            </div>
+          </div>
+          <div class="switches">
+            <div class="switchWrapper">
+              <div class="onoffswitch">
+                <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+                <label class="onoffswitch-label" for="myonoffswitch">
+                    <span class="onoffswitch-inner"></span>
+                    <span class="onoffswitch-switch"></span>
+                </label>
+              </div>
+            </div>
+            <div class="switchWrapper nobg">
+              <div class="onoffswitch2">
+                  <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox2" id="myonoffswitch2" checked>
+                  <label class="onoffswitch-label2" for="myonoffswitch2">
+                      <span class="onoffswitch-inner2"></span>
+                      <span class="onoffswitch-switch2"></span>
+                  </label>
+              </div>
+            </div>
+            <div class="switchWrapper nobg">
+              <div class="onoffswitch3">
+                  <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox3" id="myonoffswitch3" checked>
+                  <label class="onoffswitch-label3" for="myonoffswitch3">
+                      <span class="onoffswitch-inner3"></span>
+                      <span class="onoffswitch-switch3"></span>
+                  </label>
+              </div>
+            </div>
+          </div>
+          <div class="ratings">
+            <div class="rateStar">
+              <i class="fas fa-star" style="color: #5a9aa8"></i>
+              <p>3.6</p>
+            </div>
+            <div class="">
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="">
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="">
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="">
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="">
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="js/script.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('#dis').attr('disabled', true);
+      });
+    </script>
+  </body>
+</html>
